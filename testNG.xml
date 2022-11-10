@@ -1,0 +1,34 @@
+<suite name="PirmasSuite">
+	<test name="PirmasTestasPositive">
+		<classes>
+			<class name="testai.tests">
+				<methods>
+					<include name="regPositive"/>
+					<include name="loginPage"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="AntrasTestasNegative">
+		<classes>
+			<class name="testai.tests">
+				<methods>
+					<include name="loginPageNeg"/>
+					<include name="regNegative"/>
+					
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TreciasTestasAtsijungimas">
+		<classes>
+			<class name="testai.tests">
+				<methods>
+					<include name="loginPageOut"/>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
